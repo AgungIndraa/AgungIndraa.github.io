@@ -1,0 +1,47 @@
+button {
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.nav-item {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 1) url(assets/image1.svg);
+    background-size: cover;
+    width: 1440px;
+    height: 819px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 212.63px;
+}
+
+.lead {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.text-panjang {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.event {
+    font-style: italic;
+    color: #BF0561;
+}
