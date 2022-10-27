@@ -1,6 +1,7 @@
-button {
+li .btn {
     font-family: 'Raleway';
     font-style: normal;
+    border-radius: 2px;
 }
 
 .nav-item {
@@ -9,19 +10,20 @@ button {
 }
 
 .jumbotron {
-    background: rgba(0, 0, 0, 1) url(assets/image1.svg);
+    background-image: url(assets/bg-image.png);
     background-size: cover;
-    width: 1440px;
-    height: 819px;
+    width: auto;
+    height: auto;
     text-align: center;
 }
 
-.jumbotron .display-4 {
+.jumbotron .logo {
     color: white;
-    margin-top: 212.63px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 
-.lead {
+.jumbotron .lead {
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 500;
@@ -33,7 +35,7 @@ button {
     color: white;
 }
 
-.text-panjang {
+.jumbotron .text-panjang {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
@@ -41,7 +43,26 @@ button {
     line-height: 62px;
 }
 
-.event {
+.jumbotron .event {
     font-style: italic;
     color: #BF0561;
+}
+
+.jumbotron .btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 233.02%;
+    color: white;
+    border-color: white;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0, -0.25rem 0.25rem 0 0;
+    transition: .3s ease;
+}
+
+.jumbotron .btn:hover {
+    color: #fff;
+    background-color: #BF0561;
+    border-color: #BF0561
 }
