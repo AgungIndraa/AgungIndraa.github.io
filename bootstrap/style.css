@@ -1,4 +1,4 @@
-li .btn {
+.btn {
     font-family: 'Raleway';
     font-style: normal;
     border-radius: 2px;
@@ -65,4 +65,37 @@ li .btn {
     color: #fff;
     background-color: #BF0561;
     border-color: #BF0561
+}
+
+.wa {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 64px;
+    right: 120px;
+}
+
+.media {
+    margin-top: 250px;
+}
+
+.media img {
+    width: 359.56px;
+    height: auto;
+}
+
+h5 {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150.02%;
+}
+
+.media-body p {
+    font-family: 'Nexa Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
 }
