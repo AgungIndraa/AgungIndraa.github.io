@@ -73,6 +73,7 @@
     position: fixed;
     bottom: 64px;
     right: 120px;
+    z-index: 2;
 }
 
 .media {
@@ -98,4 +99,33 @@ h5 {
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
+}
+
+.our {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150.02%;
+    text-align: center;
+    color: #212121;
+    margin-top: 242px;
+}
+
+.banner-card {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-card img {
+    width: 240px;
+    height: auto;
+    margin: 14px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #fff;
 }
