@@ -129,3 +129,141 @@ h5 {
     left: 30%;
     color: #fff;
 }
+
+.box {
+    position: absolute;
+    width: 1350px;
+    height: 842px;
+    background: #F7F7F7;
+    margin-top: 150px;
+}
+
+.box .img-left {
+    margin-top: 112px;
+}
+
+.box h5 {
+    position: absolute;
+    width: 281px;
+    height: 72px;
+    left: 585.75px;
+    top: 132px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150.02%;
+}
+
+.box p {
+    position: absolute;
+    width: 680px;
+    height: 90px;
+    left: 586px;
+    top: 214.21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150.02%;
+}
+
+.box .img1 {
+    position: absolute;
+    width: 241.66px;
+    height: 341.5px;
+    left: 553.01px;
+    top: 363.52px;
+}
+
+.box .img2 {
+    position: absolute;
+    width: 241.66px;
+    height: 341.5px;
+    left: 815.67px;
+    top: 363.52px;
+}
+
+.box .img3 {
+    position: absolute;
+    width: 241.66px;
+    height: 341.5px;
+    left: 1078.34px;
+    top: 363.52px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.box .sho {
+    position: absolute;
+    width: 330.16px;
+    height: 39px;
+    left: 159.92px;
+    top: 568.77px;
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.box .lokasi {
+    position: absolute;
+    width: 135.81px;
+    height: 23px;
+    left: 159.92px;
+    top: 614px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.box .text-arrow {
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 159.92px;
+    top: 662px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.box .bi {
+    color: #FFFFFF;
+    position: absolute;
+    width: 12.61px;
+    height: 0px;
+    left: 225.92px;
+    top: 660.5px;
+}
+
+.box .see {
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 1119px;
+    top: 475px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box .bi1 {
+    position: absolute;
+    width: 63.57px;
+    height: 63.57px;
+    left: 1190px;
+    top: 547px;
+    color: #FFFFFF;
+}
