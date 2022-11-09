@@ -31,21 +31,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <div class="nav-item">
                         <a class="nav-link text-white" href="#">About Us<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
+                    </div>
+                    <div class="nav-item">
                         <a class="nav-link text-white" href="#">Our Services</a>
-                    </li>
-                    <li class="nav-item">
+                    </div>
+                    <div class="nav-item">
                         <a class="nav-link text-white" href="#">Latest Works</a>
-                    </li>
-                    <li class="nav-item">
+                    </div>
+                    <div class="nav-item">
                         <a class="nav-link text-white" href="#">Videos</a>
-                    </li>
-                    <li class="nav-item">
+                    </div>
+                    <div class="nav-item">
                         <a class="nav-link text-white" href="#">Articles</a>
-                    </li>
+                    </div>
                     <button type="button" class="btn btn-primary">Book Now</button>
                 </ul>
             </div>
@@ -86,28 +86,127 @@
         <div class="banner-card">
             <img src="assets/wedding.png" alt="wedding">
             <div class="banner-text">
-                <h4>Wedding</h4>
+                <!-- bagian popup -->
+                <h4 type="button" data-toggle="modal" data-target="#myModal">Wedding</h4>
+                <div class="modal-dialog modal-dialog-centered">
+                    <div id="myModal" class="modal" tabindex="-1">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-toggle="dropdown" aria-expanded="false">
+                                                Wedding
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Wedding Proposal</a>
+                                                <a class="dropdown-item" href="#">Wedding Destination Getaway</a>
+                                                <a class="dropdown-item" href="#">Honeymoon</a>
+                                                <a class="dropdown-item" href="#">Engagement Party</a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-toggle="dropdown" aria-expanded="false">
+                                                Social Event
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Wedding Proposal</a>
+                                                <a class="dropdown-item" href="#">Wedding Destination Getaway</a>
+                                                <a class="dropdown-item" href="#">Honeymoon</a>
+                                                <a class="dropdown-item" href="#">Engagement Party</a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-toggle="dropdown" aria-expanded="false">
+                                                Outing & Gathering
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Wedding Proposal</a>
+                                                <a class="dropdown-item" href="#">Wedding Destination Getaway</a>
+                                                <a class="dropdown-item" href="#">Honeymoon</a>
+                                                <a class="dropdown-item" href="#">Engagement Party</a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-toggle="dropdown" aria-expanded="false">
+                                                Mice
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Wedding Proposal</a>
+                                                <a class="dropdown-item" href="#">Wedding Destination Getaway</a>
+                                                <a class="dropdown-item" href="#">Honeymoon</a>
+                                                <a class="dropdown-item" href="#">Engagement Party</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <h5 id="popup">Wedding Proposal</h5>
+                                        <h4 id="popup1">Inclusions</h4>
+                                        <hr>
+                                        <h6>3 days 2 nights</h6>
+                                        <ul>
+                                            <li>Proposal Venue</li>
+                                            <li>Romantic decoration at the proposal </li>
+                                            <li>Pick-up & drop the couple with Luxurious </li>
+                                            <li>String quartet music </li>
+                                            <li>Flower </li>
+                                            <li>Photo & Video </li>
+                                            <li>Two night stay at Luxurious </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5 id="popup"><br></h5>
+                                        <h4 id="popup1">Remarks</h4>
+                                        <hr>
+                                        <h6>3 days 2 nights</h6>
+                                        <ul>
+                                            <li>Proposal Venue</li>
+                                            <li>Romantic decoration at the proposal </li>
+                                            <li>Pick-up & drop the couple with Luxurious </li>
+                                            <li>String quartet music </li>
+                                            <li>Flower </li>
+                                            <li>Photo & Video </li>
+                                            <li>Two night stay at Luxurious </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="banner-card">
             <img src="assets/social event.png" alt="wedding">
             <div class="banner-text">
-                <h4>Social Event</h4>
+                <h4 type="button" data-toggle="modal" data-target="#myModal">Social Event</h4>
             </div>
         </div>
 
         <div class="banner-card">
             <img src="assets/outing & gathering.png" alt="wedding">
             <div class="banner-text">
-                <h4>Outing & Gathering</h4>
+                <h4 type="button" data-toggle="modal" data-target="#myModal">Outing & Gathering</h4>
             </div>
         </div>
 
         <div class="banner-card">
             <img src="assets/mice.png" alt="wedding">
             <div class="banner-text">
-                <h4>Mice</h4>
+                <h4 type="button" data-toggle="modal" data-target="#myModal">Mice</h4>
             </div>
         </div>
     </div>
@@ -266,9 +365,11 @@
         </div>
     </div>
 
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -286,6 +387,31 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+        });
+    </script>
+    <!-- js popup -->
+    <script>
+        $('#myModal').modal(options)
+    </script>
+    <!-- js popup2 -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper1", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
             },
         });
     </script>
