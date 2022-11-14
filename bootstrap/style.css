@@ -370,6 +370,74 @@ h5 {
     line-height: 28px;
 }
 
+/* untuk popup */
+.swp {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swp img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swpr {
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swp {
+    background-size: cover;
+    background-position: center;
+}
+
+/* .mySwiper2 {
+    height: 80%;
+    width: 100%;
+} */
+
+.mySwiper1 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper1 .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.mySwiper1 .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swp img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* book now */
 .bn {
     position: absolute;

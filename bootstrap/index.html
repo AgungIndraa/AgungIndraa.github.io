@@ -236,10 +236,68 @@
     <div class="bg">
         <div class="container">
             <h5 class="venues">Venues</h5>
+            <div class="modal-dialog modal-dialog-centered">
+                <div id="myModal1" class="modal" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- Swiper -->
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                class="swpr swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup1.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup2.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup3.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup4.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup5.svg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider="" class="swpr swiper mySwiper1">
+                                <div class="swiper-wrapper">
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup1.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup2.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup3.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup4.svg" />
+                                    </div>
+                                    <div class="swp swiper-slide">
+                                        <img src="assets/popup5.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="assets/venues1.png" alt="sofitel bali">
-                        <p>Sofitel Bali Nusa Dua Resort</p>
+                        <p type="button" data-toggle="modal" data-target="#myModal1">Sofitel Bali Nusa Dua Resort</p>
                     </div>
                     <div class="swiper-slide"><img src="assets/venues2.png" alt="sofitel bali">
                         <p>Sofitel Bali Nusa Dua Resort</p>
@@ -396,14 +454,14 @@
     </script>
     <!-- js popup2 -->
     <script>
-        var swiper = new Swiper(".mySwiper2", {
+        var swiper = new Swiper(".mySwiper1", {
             loop: true,
             spaceBetween: 10,
             slidesPerView: 4,
             freeMode: true,
             watchSlidesProgress: true,
         });
-        var swiper2 = new Swiper(".mySwiper1", {
+        var swiper2 = new Swiper(".mySwiper2", {
             loop: true,
             spaceBetween: 10,
             navigation: {
