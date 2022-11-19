@@ -134,50 +134,24 @@ h5 {
     color: #fff;
 }
 
-/* bagian popup */
-#myModal {
-    font-family: 'Raleway';
-    font-style: normal;
-    color: #212121;
-}
-
-#popup {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 44px;
-}
-
-#popup1 {
-    font-family: 'Frank Ruhl Libre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-}
-
-.dropdown-toggle {
-    color: #212121;
-}
-
 /* latest works */
 .box {
-    position: absolute;
+    position: relative;
     width: 1350px;
     height: 842px;
     background: #F7F7F7;
     margin-top: 150px;
 }
 
-.box .img-left {
+.box .img-kiri {
+    position: relative;
     margin-top: 112px;
 }
 
-.box h5 {
-    position: absolute;
-    width: 281px;
-    height: 72px;
-    left: 585.75px;
-    top: 132px;
+.box .jdl {
+    position: relative;
+    text-align: center;
+    margin-top: -550px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 700;
@@ -185,12 +159,9 @@ h5 {
     line-height: 150.02%;
 }
 
-.box p {
-    position: absolute;
-    width: 680px;
-    height: 90px;
-    left: 586px;
-    top: 214.21px;
+.box .deskripsi {
+    position: relative;
+    margin-left: 420px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -199,36 +170,33 @@ h5 {
 }
 
 .box .img1 {
-    position: absolute;
-    width: 241.66px;
-    height: 341.5px;
-    left: 553.01px;
-    top: 363.52px;
+    position: relative;
+    width: 220.66px;
+    height: 320.5px;
+    margin-left: 420px;
 }
 
 .box .img2 {
-    position: absolute;
-    width: 241.66px;
-    height: 341.5px;
-    left: 815.67px;
-    top: 363.52px;
+    position: relative;
+    width: 220.66px;
+    height: 320.5px;
 }
 
 .box .img3 {
-    position: absolute;
-    width: 241.66px;
-    height: 341.5px;
-    left: 1078.34px;
-    top: 363.52px;
+    position: relative;
+    width: 220.66px;
+    height: 320.5px;
     background: rgba(0, 0, 0, 0.6);
 }
 
-.box .sho {
-    position: absolute;
-    width: 330.16px;
-    height: 39px;
-    left: 159.92px;
-    top: 568.77px;
+.img-lstworks {
+    margin-top: 60px;
+}
+
+.sho {
+    position: relative;
+    margin-left: 25px;
+    margin-top: -130px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 700;
@@ -238,11 +206,8 @@ h5 {
 }
 
 .box .lokasi {
-    position: absolute;
-    width: 135.81px;
-    height: 23px;
-    left: 159.92px;
-    top: 614px;
+    position: relative;
+    margin-left: 25px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -252,11 +217,8 @@ h5 {
 }
 
 .box .text-arrow {
-    position: absolute;
-    width: 76px;
-    height: 17px;
-    left: 159.92px;
-    top: 662px;
+    position: relative;
+    margin-left: 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -267,34 +229,31 @@ h5 {
 
 .box .bi {
     color: #FFFFFF;
-    position: absolute;
-    width: 12.61px;
-    height: 0px;
-    left: 225.92px;
-    top: 660.5px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.box .see {
-    position: absolute;
-    width: 160px;
-    height: 56px;
-    left: 1119px;
-    top: 475px;
+.box .container .see {
+    position: relative;
+    text-align: right;
+    margin-top: -200px;
+    margin-right: 100px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .box .bi1 {
-    position: absolute;
+    position: relative;
     width: 63.57px;
     height: 63.57px;
-    left: 1190px;
-    top: 547px;
+    float: right;
+    margin-right: 80px;
     color: #FFFFFF;
 }
 
@@ -368,74 +327,6 @@ h5 {
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
-}
-
-/* untuk popup */
-.swp {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-.swp img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.swpr {
-    width: 90%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.swp {
-    background-size: cover;
-    background-position: center;
-}
-
-/* .mySwiper2 {
-    height: 80%;
-    width: 100%;
-} */
-
-.mySwiper1 {
-    height: 20%;
-    box-sizing: border-box;
-    padding: 10px 0;
-}
-
-.mySwiper1 .swiper-slide {
-    width: 25%;
-    height: 100%;
-    opacity: 0.7;
-}
-
-.mySwiper1 .swiper-slide-thumb-active {
-    opacity: 1;
-}
-
-.swp img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* book now */
@@ -692,4 +583,97 @@ h5 {
     top: 118.48px;
     background: #BF0561;
     border-radius: 2px;
+}
+
+/* bagian popup our service*/
+#myModal {
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #212121;
+}
+
+#popup {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+#popup1 {
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.dropdown-toggle {
+    color: #212121;
+}
+
+/* bagian popup venues*/
+.swp {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swp img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swpr {
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swp {
+    background-size: cover;
+    background-position: center;
+}
+
+/* .mySwiper2 {
+    height: 80%;
+    width: 100%;
+} */
+
+.mySwiper1 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper1 .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.mySwiper1 .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swp img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
