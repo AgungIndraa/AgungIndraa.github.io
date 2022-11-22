@@ -261,8 +261,8 @@ h5 {
 .bg {
     background: url(assets/bg-venues.png);
     background-size: cover;
-    position: absolute;
-    top: 3179px;
+    position: relative;
+    margin-top: 134px;
     width: 100%;
     height: 774px;
 }
@@ -270,7 +270,7 @@ h5 {
 .swiper {
     width: 100%;
     height: 100%;
-    top: 174px;
+    margin-top: 46px;
 }
 
 .swiper-slide {
@@ -299,13 +299,9 @@ h5 {
     object-fit: cover;
 }
 
-.venues {
-    position: absolute;
-    width: 160px;
-    height: 72px;
-    z-index: 1;
-    top: 56px;
-    left: 590px;
+.tempat .venues {
+    position: relative;
+    padding-top: 56px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 700;
@@ -331,11 +327,8 @@ h5 {
 
 /* book now */
 .bn {
-    position: absolute;
-    width: 219px;
-    height: 72px;
-    left: 611px;
-    top: 4200px;
+    position: relative;
+    margin-top: 137px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 700;
@@ -347,11 +340,14 @@ h5 {
 }
 
 .container form {
-    position: absolute;
+    position: relative;
     width: 60%;
     height: 60%;
-    left: 300px;
-    top: 4308px;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 300px;
+    top: 4308px; */
     background: #FFFFFF;
     border-radius: 2px;
 }
@@ -378,11 +374,10 @@ h5 {
 }
 
 .tombol {
-    position: absolute;
+    position: relative;
     width: 173px;
     height: 60px;
-    left: 633px;
-    top: 4710px;
+    margin-top: 63px;
     background: #BF0561;
     border-radius: 2px;
     font-family: 'Raleway';
@@ -395,20 +390,16 @@ h5 {
 
 /* contact us */
 .bghitam {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 234px;
-    left: 0px;
-    top: 4904px;
+    margin-top: 134px;
     background: #212121;
 }
 
 .bghitam h5 {
-    position: absolute;
-    width: 663px;
-    height: 62px;
-    left: 122px;
-    top: 67px;
+    position: relative;
+    padding-top: 67px;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 500;
@@ -418,11 +409,7 @@ h5 {
 }
 
 .bghitam p {
-    position: absolute;
-    width: 474px;
-    height: 27px;
-    left: 124px;
-    top: 135px;
+    position: relative;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -457,11 +444,9 @@ h5 {
 
 /* articles */
 #articles {
-    position: absolute;
-    width: 171px;
-    height: 72px;
-    left: 625px;
-    top: 5272px;
+    position: relative;
+    margin-top: 134px;
+    text-align: center;
     font-family: 'Frank Ruhl Libre';
     font-style: normal;
     font-weight: 700;
@@ -471,13 +456,11 @@ h5 {
 }
 
 .bungkus {
-    position: absolute;
-    top: 5430px;
-    left: 165px;
+    position: relative;
+    margin-top: 50px;
 }
 
 .bungkus .card {
-    /* position: absolute; */
     width: 238px;
     height: 238px;
 }
@@ -504,11 +487,10 @@ h5 {
 }
 
 .showmore {
-    position: absolute;
+    position: relative;
     width: 275px;
     height: 54px;
-    left: 582px;
-    top: 5940px;
+    margin-top: 205px;
     border: 1px solid #000000;
     border-radius: 3px;
     font-family: 'Raleway';
@@ -523,33 +505,27 @@ h5 {
 
 /* footer */
 .footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 536px;
-    left: 0px;
-    top: 6170px;
+    margin-top: 124.52px;
     background: #212121;
 }
 
 .logo-footer {
-    position: absolute;
-    left: 124px;
-    top: 106.23px;
+    position: relative;
+    margin-top: 106.23px;
 }
 
 .logologo {
-    position: absolute;
-    top: 192px;
-    left: 122px;
+    position: relative;
+    margin-top: 33px;
     margin-right: 16px;
 }
 
 .footer p {
-    position: absolute;
-    width: 354px;
-    height: 35px;
-    left: 120px;
-    top: 254.58px;
+    position: relative;
+    margin-top: 27.48px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -560,12 +536,12 @@ h5 {
 }
 
 .footer nav {
-    position: absolute;
-    /* width: 102.19px;
-    height: 28px; */
-    left: 648.01px;
-    top: 118.48px;
-    display: inline;
+    position: relative;
+    /* left: 648.01px;
+    top: 118.48px; */
+    /* display: inline; */
+    text-align: center;
+    margin-top: -220px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -576,11 +552,13 @@ h5 {
 }
 
 .akhir {
-    position: absolute;
+    position: relative;
     width: 192px;
     height: 60px;
-    left: 1040px;
-    top: 118.48px;
+    /* left: 1040px;
+    top: 118.48px; */
+    float: right;
+    margin-top: -220px;
     background: #BF0561;
     border-radius: 2px;
 }
