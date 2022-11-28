@@ -13,7 +13,7 @@
 .jumbotron {
     background-image: url(assets/bg-image.png);
     background-size: cover;
-    width: auto;
+    width: 100%;
     height: auto;
     text-align: center;
 }
@@ -22,6 +22,8 @@
     color: white;
     margin-top: 150px;
     margin-bottom: 30px;
+    width: auto;
+    height: 71.68px;
 }
 
 .jumbotron .lead {
@@ -68,6 +70,39 @@
     border-color: #BF0561
 }
 
+@media (max-width: 575.98px) {
+    .jumbotron {
+        background-size: cover;
+        width: 375px;
+        height: auto;
+    }
+
+    .jumbotron .logo {
+        margin-top: 74px;
+        width: auto;
+        height: 30px;
+        text-align: center;
+    }
+
+    .jumbotron .lead {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .jumbotron .text-panjang {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .jumbotron .btn {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 233.02%;
+    }
+}
+
 /* icon whatsapp */
 .wa {
     width: 64px;
@@ -78,7 +113,7 @@
     z-index: 2;
 }
 
-/* aout us */
+/* about us */
 .media {
     margin-top: 250px;
 }
@@ -88,7 +123,7 @@
     height: auto;
 }
 
-h5 {
+.media-body h5 {
     font-family: 'Didot';
     font-style: normal;
     font-weight: 700;
@@ -102,6 +137,34 @@ h5 {
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
+}
+
+@media (max-width: 575.98px) {
+    .media {
+        display: block;
+        margin-top: 71px;
+    }
+
+    .media img {
+        width: 197.2px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .media-body h5 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150.02%;
+        text-align: center;
+    }
+
+    .media-body p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
 }
 
 /* our service */
@@ -132,6 +195,28 @@ h5 {
     top: 50%;
     left: 30%;
     color: #fff;
+}
+
+@media (max-width: 575.98px) {
+    .our {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150.02%;
+        margin-top: 90px;
+    }
+
+    .banner-card img {
+        width: 150px;
+        height: auto;
+        margin: 7px;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        color: #fff;
+    }
 }
 
 /* latest works */
@@ -537,9 +622,6 @@ h5 {
 
 .footer nav {
     position: relative;
-    /* left: 648.01px;
-    top: 118.48px; */
-    /* display: inline; */
     text-align: center;
     margin-top: -220px;
     font-family: 'Raleway';
