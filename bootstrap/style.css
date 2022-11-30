@@ -1,4 +1,9 @@
 /* halaman depan */
+.container {
+    width: 1200px !important;
+    max-width: none !important;
+}
+
 .btn {
     font-family: 'Raleway';
     font-style: normal;
@@ -70,7 +75,7 @@
     border-color: #BF0561
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .jumbotron {
         background-size: cover;
         width: 375px;
@@ -101,7 +106,7 @@
         font-size: 16px;
         line-height: 233.02%;
     }
-}
+} */
 
 /* icon whatsapp */
 .wa {
@@ -139,7 +144,7 @@
     line-height: 160%;
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .media {
         display: block;
         margin-top: 71px;
@@ -165,7 +170,7 @@
         line-height: 30px;
         text-align: center;
     }
-}
+} */
 
 /* our service */
 .our {
@@ -185,19 +190,19 @@
 }
 
 .banner-card img {
-    width: 240px;
+    width: 260px;
     height: auto;
     margin: 14px;
 }
 
 .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 30%;
+    position: relative;
     color: #fff;
+    margin-top: -150px;
+    text-align: center;
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     .our {
         font-weight: 700;
         font-size: 30px;
@@ -217,15 +222,15 @@
         left: 15%;
         color: #fff;
     }
-}
+} */
 
 /* latest works */
 .box {
     position: relative;
-    width: 1350px;
+    width: 100%;
     height: 842px;
     background: #F7F7F7;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 .box .img-kiri {
@@ -275,7 +280,7 @@
 }
 
 .img-lstworks {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .sho {
@@ -324,7 +329,7 @@
     position: relative;
     text-align: right;
     margin-top: -200px;
-    margin-right: 100px;
+    margin-right: 150px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -338,7 +343,7 @@
     width: 63.57px;
     height: 63.57px;
     float: right;
-    margin-right: 80px;
+    margin-right: 135px;
     color: #FFFFFF;
 }
 
@@ -346,6 +351,7 @@
 .bg {
     background: url(assets/bg-venues.png);
     background-size: cover;
+    width: 100%;
     position: relative;
     margin-top: 134px;
     width: 100%;
@@ -622,8 +628,9 @@
 
 .footer nav {
     position: relative;
-    text-align: center;
+    text-align: left;
     margin-top: -220px;
+    margin-left: 45%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
